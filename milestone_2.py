@@ -13,4 +13,10 @@ for word in word_list:
 # %%
 word = random.choice(word_list)  # Randomly selects a word from the list
 print(f"Random Word is {word}")
+
+# %%
+guess = input("Enter a letter : ")  # Takes user
+
+if len(guess) == 1 and guess.isalpha():
+    print(f"Good guess!")
 # %%
