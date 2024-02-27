@@ -11,3 +11,6 @@ for word in word_list:
     print(f"{word}:{len(word)}")  # Prints each
 
 # %%
+word = random.choice(word_list)  # Randomly selects a word from the list
+print(f"Random Word is {word}")
+# %%
